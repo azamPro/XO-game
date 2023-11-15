@@ -55,6 +55,9 @@ function clicked(cellNumber) {
 
 // Function to play the game
 const play = (cell0) => {
+    // if the cell is not empty
+    if (cell0.innerHTML !== '') return;
+    
     if(computer ){
         currentPlayer = player1;
         //play
